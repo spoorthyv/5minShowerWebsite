@@ -3,7 +3,7 @@
 
 $(document).ready(function() {
 r = function() {
-$('.img-2').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/madewithsparkle-3.png' : 'images/madewithsparkle-2.png') : 'images/madewithsparkle-1.png');};
+$('.img-3').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/madewithsparkle-3.png' : 'images/madewithsparkle-2.png') : 'images/madewithsparkle-1.png');};
 $(window).resize(r);
 r();
 
